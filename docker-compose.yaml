@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  web:
+    build: ./firstflight-travels
+    ports:
+      - "80:80"
