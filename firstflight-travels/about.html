@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body class="aboutbody">
+<nav>
+    <img src="logo.png" class="logo" alt="Logo" title="FirstFlight Travels">
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    <ul class="navbar" id="navbar">
+        <li>
+            <a href="./index.html">Home</a>
+            <a href="./index.html#package">Packages</a>
+            <a href="./locations.html">Locations</a>
+            <a href="./about.html">About Us</a>
+            <a href="./contact.html">Contact Us</a>
+        </li>
+    </ul>
+</nav>
+
+
+<section class="about">
+    <div class="main">
+        <img class="profile" src="Profile.png" alt="My Photo">
+        <div class="abt-text">
+            <h1>About <span>Us</span></h1>
+            <p>Impressum<br>
+            <table style=" font-size: 20px;color:white;">
+            <tr>
+                <th>Vorname:</th>
+                <td>Jamie</td>
+            </tr>
+            <tr>
+                <th>Nachname:</th>
+                <td>Schüpbach</td>
+            </tr>
+            <tr>
+                <th>Adresse:</th>
+                <td>Rohrmattweg 3</td>
+            </tr>
+            <tr>
+                <th>PLZ/Ort:</th>
+                <td>3054 Schüpfen</td>
+            </tr>
+            <tr>
+                <th>Land:</th>
+                <td>Schweiz</td>
+            </tr>
+            <tr>
+                <th>Tel:</th>
+                <td>079 873 27 78</td>
+            </tr>
+            <tr>
+                <th>E-Mail:</th>
+                <td>jamie.schuepbach@icloud.com</td>
+            </tr>
+            </table>
+            <a href="https://www.linkedin.com/in/jamie-sch%C3%BCpbach-164606297/" class="connectbtn" target="_blank">Connect
+                with me!</a>
+
+            <div class="connect-section">
+
+                <div class="social-icons">
+                    <a href="https://m.facebook.com/profile.php/?id=100028201926610" target="_blank"><i
+                            class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/jamieschupbach/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/jamie-sch%C3%BCpbach-164606297/" target="_blank"><i
+                            class='bx bxl-linkedin'></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <div class="foot">
+        <div class="footer-content">
+
+            <div class="footlinks">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="./register.html">Register</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footlinks">
+                <h4>Connect</h4>
+                <div class="social">
+                    <a href="https://m.facebook.com/profile.php/?id=100028201926610" target="_blank"><i
+                            class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/jamieschupbach/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/jamie-sch%C3%BCpbach-164606297/" target="_blank"><i
+                            class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="end">
+    </div>
+</section>
+
+<script>
+    function toggleMenu() {
+        let navbar = document.getElementById("navbar");
+        if (navbar.style.display === "block") {
+            navbar.style.display = "none";
+        } else {
+            navbar.style.display = "block";
+        }
+    }
+
+</script>
+</body>
+</html>
